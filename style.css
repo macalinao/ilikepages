@@ -1,0 +1,93 @@
+body {
+	background-image:url("http://simplyian.com/ilikepages/background.png");
+	font-family: "Trebuchet MS", "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
+
+#ad1 {
+	width: 200px;
+	height: 200px;
+}
+
+#ad2 {
+	width: 200px;
+	height: 200px;
+}
+
+#wrapper {
+	width: 950px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -475px;
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+#header {
+	width: 450px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+#logo {
+	text-align: center;
+}
+
+#nav {
+	text-align: center;
+	padding: 10px;
+	font-size: 16px;
+}
+
+h1.title {
+	font-size:23px;
+	font-weight:normal;
+}
+
+h1.secret {
+	visibility: hidden;
+	height:0px;
+	width:0px;
+}
+
+h2.title {
+	font-size:17px;
+	font-weight:normal;
+}
+
+#content {
+	padding: 20px;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+#footer {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+#copyright {
+	float: left;
+}
+
+#social {
+	float: right;
+}
+
+a {
+	color: #009900;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5EBF5E;
+	text-decoration: underline;
+}

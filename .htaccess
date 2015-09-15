@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^page/(.*)$ page.php?fbpageid=$1 [NC]
+RewriteRule ^create/ create.php [NC]
+RewriteRule ^browse/ browse.php [NC]
